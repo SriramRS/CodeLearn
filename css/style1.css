@@ -1,0 +1,15 @@
+.img_div{
+  width:200px;
+  height:200px;
+  float:left;
+}
+.content_div{
+  width:660px;
+  height:400px;
+  float:left;
+  background-color: grey;
+}
+img{
+  width:200px;
+  height:200px;
+}

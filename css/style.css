@@ -1,5 +1,16 @@
 body{
   font-family: sans-serif;
+  margin-left:auto;
+  margin-right:auto;
+  width:960px
+}
+h1{
+  font-size:40px;
+  font-family: 'sans-serif', cursive;
+  letter-spacing: 5px;
+  color:  red;
+  text-shadow: 2px 5px 20px red,
+  1px 4px 10px #8080ff;
 }
 #content{
   width:500px;
@@ -13,7 +24,7 @@ blockquote{
 }
 .header{
   background-image: url('../img/header.jpg');
-  width:100%;
+  width:960px
   height:120px;
   color: #262626;
   position: fixed;
@@ -32,6 +43,13 @@ blockquote{
   border-radius: 10px;
   border:1px solid grey;
 }
+.main{
+  height:400px;
+  width:600px;
+  z-index:-1;
+  background-color: red;
+  margin: -20px;
+}
 li {
   display:inline;
   text-decoration: none;
@@ -44,4 +62,19 @@ li a:hover
 {
   color:red;
   font-weight: bold;
+}
+.first{
+  position :relative;
+  width:600px;
+  height: 100px;
+  background-color: yellow;
+  left:100px;
+}
+.second{
+  position: absolute;
+  width:600px;
+  height: 100px;
+  background-color: green;
+  left:100px;
+  top:200px;
 }
